@@ -1,0 +1,55 @@
+<!-- Oscar Pinedo - Portfolio Project - index.html 
+    Demonstrates the use of ajax to pull data from API and incorparate it into our
+    website. We utilized an open source API provided by NASA that collects measurements
+    from the INSIGHT lander. (Interior Exploration using Seismic Investigations, Geodesy and Heat Transport )
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mars Weather Data</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=nocopy">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Jquery and css stylesheet-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!-- ajax library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body class="webpg">
+
+    <div class="container text-center mt-1 d-flex flex-column" >
+        <h2 class='mb-3'>Get Mars Weather Data</h2>
+        <div class="row justify-content-center">
+            <button id="all" class="col-md-4 btn btn-dark text-white px-5 mx-2 m-1">View All</button>
+            <button id="valid" class="col-md-4 btn btn-success text-white px-5 mx-2 m-1">View Valid Only</button>
+        </div>
+        <input class="form-control mt-2 mb-2" type="number" placeholder="Enter a Sol Day Number" />
+        <div class="row justify-content-center">
+            <button id="clear" class="col-md-4 btn btn-md btn-info text-white mx-2 m-1">Clear</button>
+            <button id="query" class="col-md-4 btn btn-md btn-primary text-white mx-2 m-1">Query</button>
+        </div>
+    </div>
+
+    <div class="container p-4">
+        
+        <div class="row data-cards">
+        </div>
+
+    </div>
+
+
+
+</body>
+
+
+
+</html>

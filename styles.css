@@ -1,0 +1,9 @@
+.webpg {
+    background-image: url('./img/insight_location.jpg');
+    background-size: 100%;
+    /* background-repeat: no-repeat */
+}
+
+.sol-list{
+    background: rgba(143, 41, 32, 0.6);
+}
