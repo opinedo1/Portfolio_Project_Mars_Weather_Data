@@ -1,4 +1,5 @@
 // Oscar Pinedo script.js
+// https://api.nasa.gov/assets/insight/InSight%20Weather%20API%20Documentation.pdf
 var api_key = "O0Tggg3QdrHyMGqb6fhPe0Z9KLtQBeUpTI1JVeFI";
 var demo_key ="DEMO_KEY";
 $(document).ready(function() {
