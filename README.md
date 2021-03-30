@@ -6,3 +6,8 @@ not available then the user will also be notified.
 
 Bootstrap is used to for responsive web design and styling. Jquery and ajax 
 is used to manipulate the DOM and access the remote API.
+
+
+Related Links:
+https://api.nasa.gov/
+https://api.nasa.gov/assets/insight/InSight%20Weather%20API%20Documentation.pdf
